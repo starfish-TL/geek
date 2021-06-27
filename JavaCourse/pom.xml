@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>geekEDU</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>JavaCourse</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
         <module>week_01</module>
+        <module>week_02</module>
     </modules>
 
 </project>

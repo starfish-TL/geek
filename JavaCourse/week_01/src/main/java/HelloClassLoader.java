@@ -33,7 +33,7 @@ public class HelloClassLoader extends ClassLoader {
 
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
-        Path path = Paths.get("/Users/tianlu/ideaProjects/geek/geekEDU/week_01/src/Hello.xlass");
+        Path path = Paths.get("/Users/tianlu/ideaProjects/geek/JavaCourse/week_01/src/Hello.xlass");
         byte[] helloBase64 = new byte[0];
         try {
             helloBase64 = Files.readAllBytes(path);
